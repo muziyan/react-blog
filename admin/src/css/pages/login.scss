@@ -1,0 +1,21 @@
+#login{
+  min-width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background-image: url("../../images/banner.jpg");
+
+  .login-form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    width:30%;
+    padding: 30px;
+    border-radius:20px;
+    background-color: rgba(0,0,0,.3);
+    transform: translate(-50%,-50%);
+
+    .login-submit{
+      text-align: center;
+    }
+  }
+}
